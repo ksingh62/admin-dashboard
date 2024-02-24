@@ -1,12 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="sidebar">
+        <div class="dashboard-text">
+          <img
+            class="dashboard-icon"
+            src="icons/view-dashboard.svg"
+            alt="Dashboard Icon"
+          />
+          <h1>Dashboard</h1>
+        </div>
+
+        <div class="menu-item">
+          <img class="icon" src="icons/home.svg" alt="Home icon" />
+          <p>Home</p>
+        </div>
+
+        <div class="menu-item">
+          <img
+            class="icon"
+            src="icons/card-account-details-outline.svg"
+            alt="Profile icon"
+          />
+          <p>Profile</p>
+        </div>
+
+        <div class="menu-item">
+          <img class="icon" src="icons/message-reply.svg" alt="Message icon" />
+          <p>Messages</p>
+        </div>
+
+        <div class="menu-item">
+          <img
+            class="icon"
+            src="icons/clock-time-three.svg"
+            alt="History icon"
+          />
+          <p>History</p>
+        </div>
+
+        <div class="menu-item">
+          <img class="icon" src="icons/note-multiple.svg" alt="Tasks icon" />
+          <p>Tasks</p>
+        </div>
+
+        <div class="menu-item">
+          <img
+            class="icon"
+            src="icons/account-group.svg"
+            alt="Communities icon"
+          />
+          <p>Communities</p>
+        </div>
+
+        <div class="menu-item settings">
+          <img class="icon" src="icons/cog.svg" alt="Settings icon" />
+          <p>Settings</p>
+        </div>
+
+        <div class="menu-item">
+          <img class="icon" src="icons/help-box.svg" alt="Support icon" />
+          <p>Support</p>
+        </div>
+
+        <div class="menu-item">
+          <img class="icon" src="icons/shield-check.svg" alt="Privacy icon" />
+          <p>Privacy</p>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <div class="navbar">
+            <div class="nav-left">
+              <img
+                class="icon-black"
+                src="icons/magnify.svg"
+                alt="search icon"
+              />
+              <input class="search-input" type="text" />
+            </div>
+
+            <div class="nav-right">
+              <img
+                class="icon-black"
+                src="icons/bell-ring.svg"
+                alt="notification icon"
+              />
+              <img
+                class="profile-sm"
+                src="icons/profilepic.jpg"
+                alt="profile picture"
+              />
+              <p>Kapilmeet Singh</p>
+            </div>
+          </div>
+
+          <div class="display-user">
+            <div class="user-left">
+              <img
+                src="icons/profilepic.jpg"
+                alt="profile picture"
+                class="profile-lg"
+              />
+              <div class="user-text">
+                <p>Hello there,</p>
+                <p>Kapilmeet Singh (@kapil)</p>
+              </div>
+            </div>
+            <div class="user-rigt">
+              <button class="user-btn">New</button
+              ><button class="user-btn">Upload</button
+              ><button class="user-btn">Share</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content">
+          <div class="projects">
+            <h3>Your Projects</h3>
+
+            <br />
+
+            <div class="cards">
+              <cards-left>
+                <div class="project-card">
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Commodi cumque libero voluptates quibusdam dicta blanditiis.
+                  </p>
+                  <div class="project-icons">
+                    <img
+                      class="icon-black"
+                      src="icons/star-plus-outline.svg"
+                      alt="star icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/eye-plus-outline.svg"
+                      alt="eye icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/source-fork.svg"
+                      alt="fork icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Totam harum enim dicta.
+                  </p>
+                  <div class="project-icons">
+                    <img
+                      class="icon-black"
+                      src="icons/star-plus-outline.svg"
+                      alt="star icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/eye-plus-outline.svg"
+                      alt="eye icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/source-fork.svg"
+                      alt="fork icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Perspiciatis, culpa. Natus dolor omnis accusamus iste
+                    facilis, sunt officiis aperiam?
+                  </p>
+                  <div class="project-icons">
+                    <img
+                      class="icon-black"
+                      src="icons/star-plus-outline.svg"
+                      alt="star icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/eye-plus-outline.svg"
+                      alt="eye icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/source-fork.svg"
+                      alt="fork icon"
+                    />
+                  </div>
+                </div>
+              </cards-left>
+
+              <div class="cards-right">
+                <div class="project-card">
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Minus repellat sequi, odit veritatis quia aperiam ipsum.
+                  </p>
+                  <div class="project-icons">
+                    <img
+                      class="icon-black"
+                      src="icons/star-plus-outline.svg"
+                      alt="star icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/eye-plus-outline.svg"
+                      alt="eye icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/source-fork.svg"
+                      alt="fork icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Porro, iste.
+                  </p>
+                  <div class="project-icons">
+                    <img
+                      class="icon-black"
+                      src="icons/star-plus-outline.svg"
+                      alt="star icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/eye-plus-outline.svg"
+                      alt="eye icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/source-fork.svg"
+                      alt="fork icon"
+                    />
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <h4>Super Cool Project</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Accusamus, tenetur.
+                  </p>
+                  <div class="project-icons">
+                    <img
+                      class="icon-black"
+                      src="icons/star-plus-outline.svg"
+                      alt="star icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/eye-plus-outline.svg"
+                      alt="eye icon"
+                    />
+                    <img
+                      class="icon-black"
+                      src="icons/source-fork.svg"
+                      alt="fork icon"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ann-trend">
+            <div class="announcements">
+              <h1>Announcements</h1>
+              <div class="announce-card">
+                <h4>Site Maintenance</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime, fugiat. Non.
+                </p>
+              </div>
+              <hr />
+              <div class="announce-card">
+                <h4>Site Maintenance</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum, eligendi.
+                </p>
+              </div>
+              <hr />
+              <div class="announce-card">
+                <h4>Site Maintenance</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Officiis omnis distinctio nostrum, laudantium modi libero
+                  tenetur maiores maxime dignissimos? Non.
+                </p>
+              </div>
+            </div>
+            <div class="trending">
+              <h1>Trending</h1>
+
+              <div class="trend-section">
+                <div class="user-left">
+                  <img
+                    src="icons/profilepic.jpg"
+                    alt="profile picture"
+                    class="profile-sm"
+                  />
+                  <div class="user-text">
+                    <p>Hello there,</p>
+                    <p>Kapilmeet Singh (@kapil)</p>
+                  </div>
+                </div>
+
+                <div class="user-left">
+                  <img
+                    src="icons/profilepic.jpg"
+                    alt="profile picture"
+                    class="profile-sm"
+                  />
+                  <div class="user-text">
+                    <p>Hello there,</p>
+                    <p>Kapilmeet Singh (@kapil)</p>
+                  </div>
+                </div>
+
+                <div class="user-left">
+                  <img
+                    src="icons/profilepic.jpg"
+                    alt="profile picture"
+                    class="profile-sm"
+                  />
+                  <div class="user-text">
+                    <p>Hello there,</p>
+                    <p>Kapilmeet Singh (@kapil)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
